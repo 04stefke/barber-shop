@@ -1,0 +1,25 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(./assets/pattern.jpg);
+    background-repeat: repeat;
+}
+
+.main-home{
+    height: 100vh;
+    background-image: url(./assets/barber-pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-home img{
+    width: 300px;
+}
