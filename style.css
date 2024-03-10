@@ -118,6 +118,12 @@ body{
     margin-top: 10rem;
     color: white;
     background-color: black;
+    position: relative;
+}
+
+.gallery{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .images{
@@ -160,4 +166,10 @@ body{
 
 .bottom img{
     width: 700px;
+}
+
+.gallery-border{
+    bottom: -150px;
+    background-color: black;
+    
 }
