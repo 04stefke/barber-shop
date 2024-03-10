@@ -232,3 +232,40 @@ body{
     background-color: black;
     
 }
+
+.contact-wrapper{
+    margin-top: 10rem;
+    padding-block: 5rem;
+    position: relative;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+
+.contact-border{
+    bottom: -150px;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    transform: rotate(180deg);
+}
