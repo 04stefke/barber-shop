@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'lilita';
+    src: url(./assets/LilitaOne-Regular.ttf);
+}
+
 *,*::before,*::after{
     margin: 0;
     padding: 0;
@@ -5,6 +10,7 @@
 }
 
 body{
+    font-family: 'lilita';
     min-height: 100vh;
     background-image: url(./assets/pattern.jpg);
     background-repeat: repeat;
@@ -73,6 +79,20 @@ body{
     float: right;
     z-index: 11;
     position:relative;
+}
+
+.main-title h1{
+    font-size: 60px;
+}
+
+.main-description p{
+    font-size: 26px;
+    text-align: center;
+}
+
+.main-description p a{
+    
+    text-decoration: underline;
 }
 
 .main-logo{
