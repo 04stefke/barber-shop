@@ -108,3 +108,9 @@ body{
     font-size: 18px;
 }
 
+.about-border{
+    bottom: -300px;
+    background-color: black;
+    transform: rotate(180deg);
+}
+
